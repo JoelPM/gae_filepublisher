@@ -1,0 +1,5 @@
+cron:
+- description: file publisher
+  url: /tasks/filepublisher?topic=<PUBSUB_TOPIC>&dst_bucket=<DESTINATION_BUCKET>&dst_path=<DESTINATION_BUCKET_PATH>&src_bucket=<SOURCE_BUCKET>&src_prefix=<SOURCE_BUCKET_PREFIX>
+  schedule: every 1 mins
+  login: admin

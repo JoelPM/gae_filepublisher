@@ -1,3 +1,10 @@
+# VIM
+*.swp
+
+# GAE files
+app.yaml
+cron.yaml
+
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
 *.a

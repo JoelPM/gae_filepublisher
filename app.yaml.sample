@@ -1,0 +1,9 @@
+runtime: go
+api_version: go1
+
+#service: file-publisher
+
+handlers:
+- url: /tasks/filepublisher
+  script: _go_app
+
