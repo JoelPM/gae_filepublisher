@@ -1,9 +1,13 @@
 # VIM
 *.swp
+*.swo
 
 # GAE files
 app.yaml
 cron.yaml
+
+# Binary
+filepublisher
 
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
